@@ -1,0 +1,9 @@
+D:\Virendra\minkbuddy\api\Minkbuddy.DataAccess\bin\Debug\netcoreapp2.1\Minkbuddy.DataAccess.deps.json
+D:\Virendra\minkbuddy\api\Minkbuddy.DataAccess\bin\Debug\netcoreapp2.1\Minkbuddy.DataAccess.dll
+D:\Virendra\minkbuddy\api\Minkbuddy.DataAccess\bin\Debug\netcoreapp2.1\Minkbuddy.DataAccess.pdb
+D:\Virendra\minkbuddy\api\Minkbuddy.DataAccess\obj\Debug\netcoreapp2.1\Minkbuddy.DataAccess.csproj.AssemblyReference.cache
+D:\Virendra\minkbuddy\api\Minkbuddy.DataAccess\obj\Debug\netcoreapp2.1\Minkbuddy.DataAccess.AssemblyInfoInputs.cache
+D:\Virendra\minkbuddy\api\Minkbuddy.DataAccess\obj\Debug\netcoreapp2.1\Minkbuddy.DataAccess.AssemblyInfo.cs
+D:\Virendra\minkbuddy\api\Minkbuddy.DataAccess\obj\Debug\netcoreapp2.1\Minkbuddy.DataAccess.csproj.CoreCompileInputs.cache
+D:\Virendra\minkbuddy\api\Minkbuddy.DataAccess\obj\Debug\netcoreapp2.1\Minkbuddy.DataAccess.dll
+D:\Virendra\minkbuddy\api\Minkbuddy.DataAccess\obj\Debug\netcoreapp2.1\Minkbuddy.DataAccess.pdb

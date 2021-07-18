@@ -1,0 +1,8 @@
+D:\Virendra\minkbuddy\api\Minkbuddy.Business\bin\Debug\netcoreapp2.1\Minkbuddy.Business.deps.json
+D:\Virendra\minkbuddy\api\Minkbuddy.Business\bin\Debug\netcoreapp2.1\Minkbuddy.Business.dll
+D:\Virendra\minkbuddy\api\Minkbuddy.Business\bin\Debug\netcoreapp2.1\Minkbuddy.Business.pdb
+D:\Virendra\minkbuddy\api\Minkbuddy.Business\obj\Debug\netcoreapp2.1\Minkbuddy.Business.AssemblyInfoInputs.cache
+D:\Virendra\minkbuddy\api\Minkbuddy.Business\obj\Debug\netcoreapp2.1\Minkbuddy.Business.AssemblyInfo.cs
+D:\Virendra\minkbuddy\api\Minkbuddy.Business\obj\Debug\netcoreapp2.1\Minkbuddy.Business.csproj.CoreCompileInputs.cache
+D:\Virendra\minkbuddy\api\Minkbuddy.Business\obj\Debug\netcoreapp2.1\Minkbuddy.Business.dll
+D:\Virendra\minkbuddy\api\Minkbuddy.Business\obj\Debug\netcoreapp2.1\Minkbuddy.Business.pdb

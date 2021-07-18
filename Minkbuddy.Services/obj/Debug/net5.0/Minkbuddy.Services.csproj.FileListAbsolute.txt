@@ -1,0 +1,15 @@
+D:\Virendra\minkbuddy\api\Minkbuddy.Services\bin\Debug\net5.0\Minkbuddy.Services.deps.json
+D:\Virendra\minkbuddy\api\Minkbuddy.Services\bin\Debug\net5.0\Minkbuddy.Services.dll
+D:\Virendra\minkbuddy\api\Minkbuddy.Services\bin\Debug\net5.0\ref\Minkbuddy.Services.dll
+D:\Virendra\minkbuddy\api\Minkbuddy.Services\bin\Debug\net5.0\Minkbuddy.Services.pdb
+D:\Virendra\minkbuddy\api\Minkbuddy.Services\bin\Debug\net5.0\Minkbuddy.Infrastructure.dll
+D:\Virendra\minkbuddy\api\Minkbuddy.Services\bin\Debug\net5.0\Minkbuddy.Infrastructure.pdb
+D:\Virendra\minkbuddy\api\Minkbuddy.Services\obj\Debug\net5.0\Minkbuddy.Services.csproj.AssemblyReference.cache
+D:\Virendra\minkbuddy\api\Minkbuddy.Services\obj\Debug\net5.0\Minkbuddy.Services.GeneratedMSBuildEditorConfig.editorconfig
+D:\Virendra\minkbuddy\api\Minkbuddy.Services\obj\Debug\net5.0\Minkbuddy.Services.AssemblyInfoInputs.cache
+D:\Virendra\minkbuddy\api\Minkbuddy.Services\obj\Debug\net5.0\Minkbuddy.Services.AssemblyInfo.cs
+D:\Virendra\minkbuddy\api\Minkbuddy.Services\obj\Debug\net5.0\Minkbuddy.Services.csproj.CoreCompileInputs.cache
+D:\Virendra\minkbuddy\api\Minkbuddy.Services\obj\Debug\net5.0\Minkbuddy.Services.csproj.CopyComplete
+D:\Virendra\minkbuddy\api\Minkbuddy.Services\obj\Debug\net5.0\Minkbuddy.Services.dll
+D:\Virendra\minkbuddy\api\Minkbuddy.Services\obj\Debug\net5.0\ref\Minkbuddy.Services.dll
+D:\Virendra\minkbuddy\api\Minkbuddy.Services\obj\Debug\net5.0\Minkbuddy.Services.pdb
