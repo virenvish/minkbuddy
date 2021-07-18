@@ -8,7 +8,9 @@ namespace Minkbuddy.Services
     {
         public static IServiceCollection AddMinkbuddyServices(this IServiceCollection services, IConfiguration config)
         {
+            //services.AddScoped<DataSyncService>();
             services.AddScoped<DataSyncService, CategorySyncService>();
+            services.AddScoped<DataSyncService, ProductListSyncService>();
             return services;
         }
     }

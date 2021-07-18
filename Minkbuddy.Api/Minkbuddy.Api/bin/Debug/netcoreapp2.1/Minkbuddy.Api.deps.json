@@ -77,9 +77,18 @@
           "Minkbuddy.Infrastructure.dll": {}
         }
       },
+      "Minkbuddy.Models/1.0.0": {
+        "runtime": {
+          "Minkbuddy.Models.dll": {}
+        },
+        "compile": {
+          "Minkbuddy.Models.dll": {}
+        }
+      },
       "Minkbuddy.Services/1.0.0": {
         "dependencies": {
           "Minkbuddy.Infrastructure": "1.0.0",
+          "Minkbuddy.Models": "1.0.0",
           "Newtonsoft.Json": "13.0.1"
         },
         "runtime": {
@@ -3232,6 +3241,11 @@
       "sha512": ""
     },
     "Minkbuddy.Infrastructure/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Minkbuddy.Models/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

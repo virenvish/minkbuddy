@@ -10,17 +10,18 @@ namespace Minkbuddy.Services.AbstractClass
 {
     public abstract class DataSyncService
     {
-        private readonly string _url = "";
-        private readonly string _isoDate = "";
+        private readonly string _urlForSignature = "";
         private readonly IConfiguration _config;
-        public string AuthCode { get; private set; }
+        public string AuthorizationCode { get; private set; }
         public string Token { get; private set; }
+        public string IsoDateString { get; private set; }
         public string ClientSignature { get; private set; }
+        public bool MoveNext { get; private set; }
 
-        public DataSyncService(string url, IConfiguration config)
+        public DataSyncService(string urlForSignature, IConfiguration config)
         {
-            _url = url;
-            _isoDate = DateTime.UtcNow.ToString("yyyy-MM-ddTHH:mm:ss.fffZ");
+            _urlForSignature = urlForSignature;
+            IsoDateString = DateTime.UtcNow.ToString("yyyy-MM-ddTHH:mm:ss.fffZ");
             _config = config;
         }
 
@@ -41,7 +42,9 @@ namespace Minkbuddy.Services.AbstractClass
 
             var jsonRequestBody = JsonConvert.SerializeObject(requestPayload);
 
-            AuthCode = await PostApiCall(authCodeUrl, jsonRequestBody);
+            AuthorizationCode = await PostApiCall(authCodeUrl, jsonRequestBody);
+
+            MoveNext = true;
 
         }
 
@@ -51,18 +54,21 @@ namespace Minkbuddy.Services.AbstractClass
         /// <returns>Get Token</returns>
         protected async Task GetToken()
         {
-            var requestPayload = new
+            if (MoveNext)
             {
-                clientId = _config["AuthKeys:consumerKey"],
-                clientSecret = _config["AuthKeys:consumerSecret"],
-                authorizationCode = AuthCode,
-            };
+                var requestPayload = new
+                {
+                    clientId = _config["Woohoo:AuthKeys:consumerKey"],
+                    clientSecret = _config["Woohoo:AuthKeys:consumerSecret"],
+                    authorizationCode = AuthorizationCode,
+                };
 
-            string authCodeUrl = _config["Woohoo:Urls:baseUrl"] + _config["Woohoo:Urls:tokenUrl"];
+                string authCodeUrl = _config["Woohoo:Urls:baseUrl"] + _config["Woohoo:Urls:tokenUrl"];
 
-            var jsonRequestBody = JsonConvert.SerializeObject(requestPayload);
+                var jsonRequestBody = JsonConvert.SerializeObject(requestPayload);
 
-            Token = await PostApiCall(authCodeUrl, jsonRequestBody);
+                Token = await PostApiCall(authCodeUrl, jsonRequestBody); 
+            }
         }
 
         /// <summary>
@@ -71,8 +77,10 @@ namespace Minkbuddy.Services.AbstractClass
         /// <returns>Generate Signature</returns>
         protected void GetSignature()
         {
-
-            ClientSignature = Signature.GetSHA512String(Convert.ToString(_config["AuthKeys:consumerSecret"]), _url);
+            if (MoveNext)
+            {
+                ClientSignature = Signature.GetSHA512String(Convert.ToString(_config["Woohoo:AuthKeys:consumerSecret"]), _urlForSignature); 
+            }
         }
 
         private async Task<string> PostApiCall(string completeUrl, string body)
@@ -102,12 +110,13 @@ namespace Minkbuddy.Services.AbstractClass
                     if (response.IsSuccessStatusCode)
                     {
                         // Reading Response.  
-                        var _postresponse = response.Content.ReadAsStringAsync().Result;
-                        returnString = JsonConvert.DeserializeObject<string>(_postresponse);
+                        var result = response.Content.ReadAsStringAsync().Result;
+                        returnString = (result.Split(':')[1]).Replace("}","").Replace("\"", ""); //going simple
                     }
                 }
                 catch (Exception ex)
                 {
+                    MoveNext = false;
                     throw;
                 }
             }

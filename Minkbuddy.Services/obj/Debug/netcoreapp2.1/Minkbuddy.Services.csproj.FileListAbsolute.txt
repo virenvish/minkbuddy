@@ -12,3 +12,5 @@ D:\Virendra\minkbuddy\api\Minkbuddy.Services\obj\Debug\netcoreapp2.1\Minkbuddy.S
 D:\Virendra\minkbuddy\api\Minkbuddy.Services\obj\Debug\netcoreapp2.1\Minkbuddy.Services.csproj.CopyComplete
 D:\Virendra\minkbuddy\api\Minkbuddy.Services\obj\Debug\netcoreapp2.1\Minkbuddy.Services.dll
 D:\Virendra\minkbuddy\api\Minkbuddy.Services\obj\Debug\netcoreapp2.1\Minkbuddy.Services.pdb
+D:\Virendra\minkbuddy\api\Minkbuddy.Services\bin\Debug\netcoreapp2.1\Minkbuddy.Models.dll
+D:\Virendra\minkbuddy\api\Minkbuddy.Services\bin\Debug\netcoreapp2.1\Minkbuddy.Models.pdb

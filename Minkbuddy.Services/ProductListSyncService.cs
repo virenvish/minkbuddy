@@ -1,24 +1,25 @@
 ﻿using Microsoft.Extensions.Configuration;
+using Minkbuddy.Models.Domain;
 using Minkbuddy.Services.AbstractClass;
+using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
 using System.Net.Http;
 using System.Net.Http.Headers;
 using System.Text;
 using System.Threading.Tasks;
-using Newtonsoft.Json;
-using Minkbuddy.Models.Domain;
 
 namespace Minkbuddy.Services
 {
-    public class CategorySyncService : DataSyncService
+    public class ProductListSyncService : DataSyncService
     {
         private readonly IConfiguration _configuration;
 
-        public CategorySyncService(string urlForSignature, IConfiguration configuration) : base(urlForSignature, configuration)
+        public ProductListSyncService(string urlForSignature, IConfiguration configuration) : base(urlForSignature, configuration)
         {
             _configuration = configuration;
         }
+        
         public override async Task Sync()
         {
             //Step 1
@@ -47,16 +48,15 @@ namespace Minkbuddy.Services
                         // Initialization.  
                         HttpResponseMessage response = new HttpResponseMessage();
 
-                        // HTTP GET  
-                        response = await client.GetAsync(Convert.ToString(_configuration["Woohoo:Urls:categoryUrl"]).Replace("{id}","122"));
-                        //response = await client.GetAsync("");
+                        // HTTP POST  
+                        response = await client.GetAsync(Convert.ToString(_configuration["Woohoo:Urls:productListUrl"]).Replace("{id}", "122"));
 
                         // Verification  
                         if (response.IsSuccessStatusCode)
                         {
                             // Reading Response.  
                             var result = response.Content.ReadAsStringAsync().Result;
-                            var serializeObject = JsonConvert.DeserializeObject<Category>(result);
+                            var serializeObject = JsonConvert.DeserializeObject<ProductList>(result);
                         }
                     }
                     catch (Exception ex)
@@ -64,7 +64,7 @@ namespace Minkbuddy.Services
 
                         throw;
                     }
-                } 
+                }
             }
         }
     }

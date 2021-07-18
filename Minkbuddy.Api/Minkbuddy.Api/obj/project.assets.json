@@ -4363,11 +4363,22 @@
           "bin/placeholder/Minkbuddy.Infrastructure.dll": {}
         }
       },
+      "Minkbuddy.Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.1",
+        "compile": {
+          "bin/placeholder/Minkbuddy.Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Minkbuddy.Models.dll": {}
+        }
+      },
       "Minkbuddy.Services/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.1",
         "dependencies": {
           "Minkbuddy.Infrastructure": "1.0.0",
+          "Minkbuddy.Models": "1.0.0",
           "Newtonsoft.Json": "13.0.1"
         },
         "compile": {
@@ -11920,6 +11931,11 @@
       "type": "project",
       "path": "../../Minkbuddy.Infrastructure/Minkbuddy.Infrastructure.csproj",
       "msbuildProject": "../../Minkbuddy.Infrastructure/Minkbuddy.Infrastructure.csproj"
+    },
+    "Minkbuddy.Models/1.0.0": {
+      "type": "project",
+      "path": "../../Minkbuddy.Models/Minkbuddy.Models.csproj",
+      "msbuildProject": "../../Minkbuddy.Models/Minkbuddy.Models.csproj"
     },
     "Minkbuddy.Services/1.0.0": {
       "type": "project",
