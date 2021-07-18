@@ -1,21 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Virendra\\minkbuddy\\api\\Minkbuddy.Api\\Minkbuddy.Api\\Minkbuddy.Api.csproj": {}
+    "D:\\PROJECTS\\Minkbuddy\\Minkbuddy.Api\\Minkbuddy.Api\\Minkbuddy.Api.csproj": {}
   },
   "projects": {
-    "D:\\Virendra\\minkbuddy\\api\\Minkbuddy.Api\\Minkbuddy.Api\\Minkbuddy.Api.csproj": {
+    "D:\\PROJECTS\\Minkbuddy\\Minkbuddy.Api\\Minkbuddy.Api\\Minkbuddy.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Virendra\\minkbuddy\\api\\Minkbuddy.Api\\Minkbuddy.Api\\Minkbuddy.Api.csproj",
+        "projectUniqueName": "D:\\PROJECTS\\Minkbuddy\\Minkbuddy.Api\\Minkbuddy.Api\\Minkbuddy.Api.csproj",
         "projectName": "Minkbuddy.Api",
-        "projectPath": "D:\\Virendra\\minkbuddy\\api\\Minkbuddy.Api\\Minkbuddy.Api\\Minkbuddy.Api.csproj",
-        "packagesPath": "C:\\Users\\viren\\.nuget\\packages\\",
-        "outputPath": "D:\\Virendra\\minkbuddy\\api\\Minkbuddy.Api\\Minkbuddy.Api\\obj\\",
+        "projectPath": "D:\\PROJECTS\\Minkbuddy\\Minkbuddy.Api\\Minkbuddy.Api\\Minkbuddy.Api.csproj",
+        "packagesPath": "C:\\Users\\Prolixus IT Solution\\.nuget\\packages\\",
+        "outputPath": "D:\\PROJECTS\\Minkbuddy\\Minkbuddy.Api\\Minkbuddy.Api\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Progress\\ToolboxNuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\viren\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Prolixus IT Solution\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Telerik UI for WinForms.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.1"
@@ -28,8 +32,8 @@
           "netcoreapp2.1": {
             "targetAlias": "netcoreapp2.1",
             "projectReferences": {
-              "D:\\Virendra\\minkbuddy\\api\\Minkbuddy.Services\\Minkbuddy.Services.csproj": {
-                "projectPath": "D:\\Virendra\\minkbuddy\\api\\Minkbuddy.Services\\Minkbuddy.Services.csproj"
+              "D:\\PROJECTS\\Minkbuddy\\Minkbuddy.Services\\Minkbuddy.Services.csproj": {
+                "projectPath": "D:\\PROJECTS\\Minkbuddy\\Minkbuddy.Services\\Minkbuddy.Services.csproj"
               }
             }
           }
@@ -72,22 +76,26 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Virendra\\minkbuddy\\api\\Minkbuddy.DataAccess\\Minkbuddy.DataAccess.csproj": {
+    "D:\\PROJECTS\\Minkbuddy\\Minkbuddy.DataAccess\\Minkbuddy.DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Virendra\\minkbuddy\\api\\Minkbuddy.DataAccess\\Minkbuddy.DataAccess.csproj",
+        "projectUniqueName": "D:\\PROJECTS\\Minkbuddy\\Minkbuddy.DataAccess\\Minkbuddy.DataAccess.csproj",
         "projectName": "Minkbuddy.DataAccess",
-        "projectPath": "D:\\Virendra\\minkbuddy\\api\\Minkbuddy.DataAccess\\Minkbuddy.DataAccess.csproj",
-        "packagesPath": "C:\\Users\\viren\\.nuget\\packages\\",
-        "outputPath": "D:\\Virendra\\minkbuddy\\api\\Minkbuddy.DataAccess\\obj\\",
+        "projectPath": "D:\\PROJECTS\\Minkbuddy\\Minkbuddy.DataAccess\\Minkbuddy.DataAccess.csproj",
+        "packagesPath": "C:\\Users\\Prolixus IT Solution\\.nuget\\packages\\",
+        "outputPath": "D:\\PROJECTS\\Minkbuddy\\Minkbuddy.DataAccess\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Progress\\ToolboxNuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\viren\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Prolixus IT Solution\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Telerik UI for WinForms.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.1"
@@ -137,22 +145,26 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Virendra\\minkbuddy\\api\\Minkbuddy.Infrastructure\\Minkbuddy.Infrastructure.csproj": {
+    "D:\\PROJECTS\\Minkbuddy\\Minkbuddy.Infrastructure\\Minkbuddy.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Virendra\\minkbuddy\\api\\Minkbuddy.Infrastructure\\Minkbuddy.Infrastructure.csproj",
+        "projectUniqueName": "D:\\PROJECTS\\Minkbuddy\\Minkbuddy.Infrastructure\\Minkbuddy.Infrastructure.csproj",
         "projectName": "Minkbuddy.Infrastructure",
-        "projectPath": "D:\\Virendra\\minkbuddy\\api\\Minkbuddy.Infrastructure\\Minkbuddy.Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\viren\\.nuget\\packages\\",
-        "outputPath": "D:\\Virendra\\minkbuddy\\api\\Minkbuddy.Infrastructure\\obj\\",
+        "projectPath": "D:\\PROJECTS\\Minkbuddy\\Minkbuddy.Infrastructure\\Minkbuddy.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\Prolixus IT Solution\\.nuget\\packages\\",
+        "outputPath": "D:\\PROJECTS\\Minkbuddy\\Minkbuddy.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Progress\\ToolboxNuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\viren\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Prolixus IT Solution\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Telerik UI for WinForms.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.1"
@@ -165,8 +177,8 @@
           "netcoreapp2.1": {
             "targetAlias": "netcoreapp2.1",
             "projectReferences": {
-              "D:\\Virendra\\minkbuddy\\api\\Minkbuddy.DataAccess\\Minkbuddy.DataAccess.csproj": {
-                "projectPath": "D:\\Virendra\\minkbuddy\\api\\Minkbuddy.DataAccess\\Minkbuddy.DataAccess.csproj"
+              "D:\\PROJECTS\\Minkbuddy\\Minkbuddy.DataAccess\\Minkbuddy.DataAccess.csproj": {
+                "projectPath": "D:\\PROJECTS\\Minkbuddy\\Minkbuddy.DataAccess\\Minkbuddy.DataAccess.csproj"
               }
             }
           }
@@ -206,22 +218,87 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Virendra\\minkbuddy\\api\\Minkbuddy.Services\\Minkbuddy.Services.csproj": {
+    "D:\\PROJECTS\\Minkbuddy\\Minkbuddy.Models\\Minkbuddy.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Virendra\\minkbuddy\\api\\Minkbuddy.Services\\Minkbuddy.Services.csproj",
-        "projectName": "Minkbuddy.Services",
-        "projectPath": "D:\\Virendra\\minkbuddy\\api\\Minkbuddy.Services\\Minkbuddy.Services.csproj",
-        "packagesPath": "C:\\Users\\viren\\.nuget\\packages\\",
-        "outputPath": "D:\\Virendra\\minkbuddy\\api\\Minkbuddy.Services\\obj\\",
+        "projectUniqueName": "D:\\PROJECTS\\Minkbuddy\\Minkbuddy.Models\\Minkbuddy.Models.csproj",
+        "projectName": "Minkbuddy.Models",
+        "projectPath": "D:\\PROJECTS\\Minkbuddy\\Minkbuddy.Models\\Minkbuddy.Models.csproj",
+        "packagesPath": "C:\\Users\\Prolixus IT Solution\\.nuget\\packages\\",
+        "outputPath": "D:\\PROJECTS\\Minkbuddy\\Minkbuddy.Models\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Progress\\ToolboxNuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\viren\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Prolixus IT Solution\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Telerik UI for WinForms.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "targetAlias": "netcoreapp2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "targetAlias": "netcoreapp2.1",
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\PROJECTS\\Minkbuddy\\Minkbuddy.Services\\Minkbuddy.Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\PROJECTS\\Minkbuddy\\Minkbuddy.Services\\Minkbuddy.Services.csproj",
+        "projectName": "Minkbuddy.Services",
+        "projectPath": "D:\\PROJECTS\\Minkbuddy\\Minkbuddy.Services\\Minkbuddy.Services.csproj",
+        "packagesPath": "C:\\Users\\Prolixus IT Solution\\.nuget\\packages\\",
+        "outputPath": "D:\\PROJECTS\\Minkbuddy\\Minkbuddy.Services\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Progress\\ToolboxNuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Prolixus IT Solution\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Telerik UI for WinForms.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.1"
@@ -234,8 +311,11 @@
           "netcoreapp2.1": {
             "targetAlias": "netcoreapp2.1",
             "projectReferences": {
-              "D:\\Virendra\\minkbuddy\\api\\Minkbuddy.Infrastructure\\Minkbuddy.Infrastructure.csproj": {
-                "projectPath": "D:\\Virendra\\minkbuddy\\api\\Minkbuddy.Infrastructure\\Minkbuddy.Infrastructure.csproj"
+              "D:\\PROJECTS\\Minkbuddy\\Minkbuddy.Infrastructure\\Minkbuddy.Infrastructure.csproj": {
+                "projectPath": "D:\\PROJECTS\\Minkbuddy\\Minkbuddy.Infrastructure\\Minkbuddy.Infrastructure.csproj"
+              },
+              "D:\\PROJECTS\\Minkbuddy\\Minkbuddy.Models\\Minkbuddy.Models.csproj": {
+                "projectPath": "D:\\PROJECTS\\Minkbuddy\\Minkbuddy.Models\\Minkbuddy.Models.csproj"
               }
             }
           }
@@ -271,7 +351,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     }

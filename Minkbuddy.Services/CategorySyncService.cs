@@ -6,17 +6,18 @@ using System.Net.Http;
 using System.Net.Http.Headers;
 using System.Text;
 using System.Threading.Tasks;
+using Newtonsoft.Json;
+using Minkbuddy.Models.Domain;
 
 namespace Minkbuddy.Services
 {
     public class CategorySyncService : DataSyncService
     {
-        private readonly string _url = "";
-        //private readonly string _isoDate = ""; //TBD
-        public CategorySyncService(string url, IConfiguration configuration) : base(url, configuration)
+        private readonly IConfiguration _configuration;
+
+        public CategorySyncService(string urlForSignature, IConfiguration configuration) : base(urlForSignature, configuration)
         {
-            _url = url;
-            //_isoDate = DateTime.UtcNow.ToString("yyyy-MM-ddTHH:mm:ss.fffZ"); //TBD
+            _configuration = configuration;
         }
         public override async Task Sync()
         {
@@ -27,26 +28,43 @@ namespace Minkbuddy.Services
             //Step 3
             GetSignature();
 
-            using (var client = new HttpClient())
+            if (MoveNext)
             {
-                // Setting Base address.  
-                client.BaseAddress = new Uri(_url);
-
-                // Setting content type.                   
-                client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
-
-                // Initialization.  
-                HttpResponseMessage response = new HttpResponseMessage();
-
-                // HTTP POST  
-                response = await client.GetAsync("");
-
-                // Verification  
-                if (response.IsSuccessStatusCode)
+                using (var client = new HttpClient())
                 {
-                    // Reading Response.  
-                    var _resp = response.Content.ReadAsStringAsync().Result;
-                }
+                    try
+                    {
+                        // Setting Base address.  
+                        client.BaseAddress = new Uri(_configuration["Woohoo:Urls:baseUrl"]);
+
+                        // Setting content type.                   
+                        client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("*/*"));
+                        client.DefaultRequestHeaders.TryAddWithoutValidation("Content-Type", "application/json");
+                        client.DefaultRequestHeaders.TryAddWithoutValidation("dateAtClient", IsoDateString);
+                        client.DefaultRequestHeaders.TryAddWithoutValidation("signature", ClientSignature);
+                        client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", Token);
+
+                        // Initialization.  
+                        HttpResponseMessage response = new HttpResponseMessage();
+
+                        // HTTP GET  
+                        response = await client.GetAsync(Convert.ToString(_configuration["Woohoo:Urls:categoryUrl"]).Replace("{id}","122"));
+                        //response = await client.GetAsync("");
+
+                        // Verification  
+                        if (response.IsSuccessStatusCode)
+                        {
+                            // Reading Response.  
+                            var result = response.Content.ReadAsStringAsync().Result;
+                            var serializeObject = JsonConvert.DeserializeObject<Category>(result);
+                        }
+                    }
+                    catch (Exception ex)
+                    {
+
+                        throw;
+                    }
+                } 
             }
         }
     }

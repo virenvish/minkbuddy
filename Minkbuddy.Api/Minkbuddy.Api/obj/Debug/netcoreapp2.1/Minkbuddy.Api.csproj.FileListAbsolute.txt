@@ -42,3 +42,5 @@ D:\Virendra\minkbuddy\api\Minkbuddy.Api\Minkbuddy.Api\obj\Debug\netcoreapp2.1\Mi
 D:\Virendra\minkbuddy\api\Minkbuddy.Api\Minkbuddy.Api\obj\Debug\netcoreapp2.1\Minkbuddy.Api.dll
 D:\Virendra\minkbuddy\api\Minkbuddy.Api\Minkbuddy.Api\obj\Debug\netcoreapp2.1\Minkbuddy.Api.pdb
 D:\Virendra\minkbuddy\api\Minkbuddy.Api\Minkbuddy.Api\obj\Debug\netcoreapp2.1\Minkbuddy.Api.genruntimeconfig.cache
+D:\Virendra\minkbuddy\api\Minkbuddy.Api\Minkbuddy.Api\bin\Debug\netcoreapp2.1\Minkbuddy.Models.dll
+D:\Virendra\minkbuddy\api\Minkbuddy.Api\Minkbuddy.Api\bin\Debug\netcoreapp2.1\Minkbuddy.Models.pdb

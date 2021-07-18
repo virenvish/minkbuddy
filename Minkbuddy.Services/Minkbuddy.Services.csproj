@@ -14,6 +14,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Minkbuddy.Infrastructure\Minkbuddy.Infrastructure.csproj" />
+    <ProjectReference Include="..\Minkbuddy.Models\Minkbuddy.Models.csproj" />
   </ItemGroup>
 
 </Project>

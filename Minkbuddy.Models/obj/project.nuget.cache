@@ -1,16 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "RqfmOyR2Y1WrweRPl5p/3UgCn1UP2aHx7lcuSyNXMKqEIrUA10h0Kg2tuoi3I2+9yGlXqGwakYYWmHzZIg7WIQ==",
+  "dgSpecHash": "ZJdINHdVvnB9pe22wFCoJ73B3OMq9iqWyg9Ng4/MqvOjZBwxb/OAZByHjb+CKzQyHbndh5eQYyA70+hG4uF3dQ==",
   "success": true,
-  "projectFilePath": "D:\\Virendra\\minkbuddy\\api\\Minkbuddy.Models\\Minkbuddy.Models.csproj",
+  "projectFilePath": "D:\\PROJECTS\\Minkbuddy\\Minkbuddy.Models\\Minkbuddy.Models.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\viren\\.nuget\\packages\\microsoft.netcore.app\\2.1.0\\microsoft.netcore.app.2.1.0.nupkg.sha512",
-    "C:\\Users\\viren\\.nuget\\packages\\microsoft.netcore.dotnetapphost\\2.1.0\\microsoft.netcore.dotnetapphost.2.1.0.nupkg.sha512",
-    "C:\\Users\\viren\\.nuget\\packages\\microsoft.netcore.dotnethostpolicy\\2.1.0\\microsoft.netcore.dotnethostpolicy.2.1.0.nupkg.sha512",
-    "C:\\Users\\viren\\.nuget\\packages\\microsoft.netcore.dotnethostresolver\\2.1.0\\microsoft.netcore.dotnethostresolver.2.1.0.nupkg.sha512",
-    "C:\\Users\\viren\\.nuget\\packages\\microsoft.netcore.platforms\\2.1.0\\microsoft.netcore.platforms.2.1.0.nupkg.sha512",
-    "C:\\Users\\viren\\.nuget\\packages\\microsoft.netcore.targets\\2.1.0\\microsoft.netcore.targets.2.1.0.nupkg.sha512",
-    "C:\\Users\\viren\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+    "C:\\Users\\Prolixus IT Solution\\.nuget\\packages\\microsoft.netcore.app\\2.1.0\\microsoft.netcore.app.2.1.0.nupkg.sha512",
+    "C:\\Users\\Prolixus IT Solution\\.nuget\\packages\\microsoft.netcore.dotnetapphost\\2.1.0\\microsoft.netcore.dotnetapphost.2.1.0.nupkg.sha512",
+    "C:\\Users\\Prolixus IT Solution\\.nuget\\packages\\microsoft.netcore.dotnethostpolicy\\2.1.0\\microsoft.netcore.dotnethostpolicy.2.1.0.nupkg.sha512",
+    "C:\\Users\\Prolixus IT Solution\\.nuget\\packages\\microsoft.netcore.dotnethostresolver\\2.1.0\\microsoft.netcore.dotnethostresolver.2.1.0.nupkg.sha512",
+    "C:\\Users\\Prolixus IT Solution\\.nuget\\packages\\microsoft.netcore.platforms\\2.1.0\\microsoft.netcore.platforms.2.1.0.nupkg.sha512",
+    "C:\\Users\\Prolixus IT Solution\\.nuget\\packages\\microsoft.netcore.targets\\2.1.0\\microsoft.netcore.targets.2.1.0.nupkg.sha512",
+    "C:\\Users\\Prolixus IT Solution\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
   ],
   "logs": []
 }

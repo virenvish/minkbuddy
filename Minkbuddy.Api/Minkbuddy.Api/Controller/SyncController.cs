@@ -43,6 +43,10 @@ namespace Minkbuddy.Api.Controller
         [Route("product")]
         public IActionResult ProductSync()
         {
+            string productListUrl = _config["Woohoo:Urls:baseUrl"] + _config["Woohoo:Urls:productListUrl"];
+            productListUrl = productListUrl.Replace("{id}", "122");
+            _service = new ProductListSyncService(productListUrl, _config);
+            _service.Sync();
             return Ok("Product");
         }
     }
