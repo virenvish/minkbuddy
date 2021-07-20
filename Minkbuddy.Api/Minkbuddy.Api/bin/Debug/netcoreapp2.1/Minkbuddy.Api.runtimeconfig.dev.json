@@ -1,8 +1,9 @@
 {
   "runtimeOptions": {
     "additionalProbingPaths": [
-      "C:\\Users\\viren\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\viren\\.nuget\\packages"
+      "C:\\Users\\Prolixus IT Solution\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\Prolixus IT Solution\\.nuget\\packages",
+      "C:\\Program Files (x86)\\Progress\\ToolboxNuGetPackages"
     ]
   }
 }

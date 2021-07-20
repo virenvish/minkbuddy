@@ -11,8 +11,8 @@ namespace Minkbuddy.Models.Domain
     {
         public string SKU { get; set; }
         public string CardNumber { get; set; }
-        private string CardPin { get; set; }
-        private string ActivationCode { get; set; }
+        public string CardPin { get; set; }
+        public string ActivationCode { get; set; }
         public string ActivationUrl { get; set; }
         public string Amount { get; set; }
         public string Validity { get; set; }

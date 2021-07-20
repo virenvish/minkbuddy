@@ -7,3 +7,12 @@ D:\Virendra\minkbuddy\api\Minkbuddy.Models\obj\Debug\netcoreapp2.1\Minkbuddy.Mod
 D:\Virendra\minkbuddy\api\Minkbuddy.Models\obj\Debug\netcoreapp2.1\Minkbuddy.Models.csproj.CoreCompileInputs.cache
 D:\Virendra\minkbuddy\api\Minkbuddy.Models\obj\Debug\netcoreapp2.1\Minkbuddy.Models.dll
 D:\Virendra\minkbuddy\api\Minkbuddy.Models\obj\Debug\netcoreapp2.1\Minkbuddy.Models.pdb
+D:\PROJECTS\Minkbuddy\Minkbuddy.Models\bin\Debug\netcoreapp2.1\Minkbuddy.Models.deps.json
+D:\PROJECTS\Minkbuddy\Minkbuddy.Models\bin\Debug\netcoreapp2.1\Minkbuddy.Models.dll
+D:\PROJECTS\Minkbuddy\Minkbuddy.Models\bin\Debug\netcoreapp2.1\Minkbuddy.Models.pdb
+D:\PROJECTS\Minkbuddy\Minkbuddy.Models\obj\Debug\netcoreapp2.1\Minkbuddy.Models.csproj.AssemblyReference.cache
+D:\PROJECTS\Minkbuddy\Minkbuddy.Models\obj\Debug\netcoreapp2.1\Minkbuddy.Models.AssemblyInfoInputs.cache
+D:\PROJECTS\Minkbuddy\Minkbuddy.Models\obj\Debug\netcoreapp2.1\Minkbuddy.Models.AssemblyInfo.cs
+D:\PROJECTS\Minkbuddy\Minkbuddy.Models\obj\Debug\netcoreapp2.1\Minkbuddy.Models.csproj.CoreCompileInputs.cache
+D:\PROJECTS\Minkbuddy\Minkbuddy.Models\obj\Debug\netcoreapp2.1\Minkbuddy.Models.dll
+D:\PROJECTS\Minkbuddy\Minkbuddy.Models\obj\Debug\netcoreapp2.1\Minkbuddy.Models.pdb

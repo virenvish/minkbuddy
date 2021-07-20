@@ -10,3 +10,15 @@ D:\Virendra\minkbuddy\api\Minkbuddy.Infrastructure\obj\Debug\netcoreapp2.1\Minkb
 D:\Virendra\minkbuddy\api\Minkbuddy.Infrastructure\obj\Debug\netcoreapp2.1\Minkbuddy.Infrastructure.csproj.CopyComplete
 D:\Virendra\minkbuddy\api\Minkbuddy.Infrastructure\obj\Debug\netcoreapp2.1\Minkbuddy.Infrastructure.dll
 D:\Virendra\minkbuddy\api\Minkbuddy.Infrastructure\obj\Debug\netcoreapp2.1\Minkbuddy.Infrastructure.pdb
+D:\PROJECTS\Minkbuddy\Minkbuddy.Infrastructure\bin\Debug\netcoreapp2.1\Minkbuddy.Infrastructure.deps.json
+D:\PROJECTS\Minkbuddy\Minkbuddy.Infrastructure\bin\Debug\netcoreapp2.1\Minkbuddy.Infrastructure.dll
+D:\PROJECTS\Minkbuddy\Minkbuddy.Infrastructure\bin\Debug\netcoreapp2.1\Minkbuddy.Infrastructure.pdb
+D:\PROJECTS\Minkbuddy\Minkbuddy.Infrastructure\bin\Debug\netcoreapp2.1\Minkbuddy.DataAccess.dll
+D:\PROJECTS\Minkbuddy\Minkbuddy.Infrastructure\bin\Debug\netcoreapp2.1\Minkbuddy.DataAccess.pdb
+D:\PROJECTS\Minkbuddy\Minkbuddy.Infrastructure\obj\Debug\netcoreapp2.1\Minkbuddy.Infrastructure.csproj.AssemblyReference.cache
+D:\PROJECTS\Minkbuddy\Minkbuddy.Infrastructure\obj\Debug\netcoreapp2.1\Minkbuddy.Infrastructure.AssemblyInfoInputs.cache
+D:\PROJECTS\Minkbuddy\Minkbuddy.Infrastructure\obj\Debug\netcoreapp2.1\Minkbuddy.Infrastructure.AssemblyInfo.cs
+D:\PROJECTS\Minkbuddy\Minkbuddy.Infrastructure\obj\Debug\netcoreapp2.1\Minkbuddy.Infrastructure.csproj.CoreCompileInputs.cache
+D:\PROJECTS\Minkbuddy\Minkbuddy.Infrastructure\obj\Debug\netcoreapp2.1\Minkbuddy.Infrastructure.csproj.CopyComplete
+D:\PROJECTS\Minkbuddy\Minkbuddy.Infrastructure\obj\Debug\netcoreapp2.1\Minkbuddy.Infrastructure.dll
+D:\PROJECTS\Minkbuddy\Minkbuddy.Infrastructure\obj\Debug\netcoreapp2.1\Minkbuddy.Infrastructure.pdb

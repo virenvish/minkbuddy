@@ -117,7 +117,7 @@ namespace Minkbuddy.Services.AbstractClass
                 catch (Exception ex)
                 {
                     MoveNext = false;
-                    throw;
+                    throw ex;
                 }
             }
             return returnString;

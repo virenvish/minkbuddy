@@ -6,3 +6,12 @@ D:\Virendra\minkbuddy\api\Minkbuddy.Business\obj\Debug\netcoreapp2.1\Minkbuddy.B
 D:\Virendra\minkbuddy\api\Minkbuddy.Business\obj\Debug\netcoreapp2.1\Minkbuddy.Business.csproj.CoreCompileInputs.cache
 D:\Virendra\minkbuddy\api\Minkbuddy.Business\obj\Debug\netcoreapp2.1\Minkbuddy.Business.dll
 D:\Virendra\minkbuddy\api\Minkbuddy.Business\obj\Debug\netcoreapp2.1\Minkbuddy.Business.pdb
+D:\PROJECTS\Minkbuddy\Minkbuddy.Business\bin\Debug\netcoreapp2.1\Minkbuddy.Business.deps.json
+D:\PROJECTS\Minkbuddy\Minkbuddy.Business\bin\Debug\netcoreapp2.1\Minkbuddy.Business.dll
+D:\PROJECTS\Minkbuddy\Minkbuddy.Business\bin\Debug\netcoreapp2.1\Minkbuddy.Business.pdb
+D:\PROJECTS\Minkbuddy\Minkbuddy.Business\obj\Debug\netcoreapp2.1\Minkbuddy.Business.csproj.AssemblyReference.cache
+D:\PROJECTS\Minkbuddy\Minkbuddy.Business\obj\Debug\netcoreapp2.1\Minkbuddy.Business.AssemblyInfoInputs.cache
+D:\PROJECTS\Minkbuddy\Minkbuddy.Business\obj\Debug\netcoreapp2.1\Minkbuddy.Business.AssemblyInfo.cs
+D:\PROJECTS\Minkbuddy\Minkbuddy.Business\obj\Debug\netcoreapp2.1\Minkbuddy.Business.csproj.CoreCompileInputs.cache
+D:\PROJECTS\Minkbuddy\Minkbuddy.Business\obj\Debug\netcoreapp2.1\Minkbuddy.Business.dll
+D:\PROJECTS\Minkbuddy\Minkbuddy.Business\obj\Debug\netcoreapp2.1\Minkbuddy.Business.pdb
