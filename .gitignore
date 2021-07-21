@@ -1,0 +1,7 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+*.cache
+/Minkbuddy.Api/Minkbuddy.Api/obj/Release/netcoreapp2.1/.NETCoreApp,Version=v2.1.AssemblyAttributes.cs
+/Minkbuddy.Api/Minkbuddy.Api/obj/Release/netcoreapp2.1/Minkbuddy.Api.AssemblyInfo.cs
