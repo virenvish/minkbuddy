@@ -5,3 +5,4 @@
 *.cache
 /Minkbuddy.Api/Minkbuddy.Api/obj/Release/netcoreapp2.1/.NETCoreApp,Version=v2.1.AssemblyAttributes.cs
 /Minkbuddy.Api/Minkbuddy.Api/obj/Release/netcoreapp2.1/Minkbuddy.Api.AssemblyInfo.cs
+/Minkbuddy.Models/Minkbuddy.Models.csproj.user
